@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%; /* Largura padrão */
+  max-width: 300px; /* Limita a largura máxima */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite a quebra de linha se necessário */
+  gap: 20px; /* Espaçamento entre os cards */
+}
